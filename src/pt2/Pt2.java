@@ -45,6 +45,7 @@ public class Pt2 {
         return splitString;
     }
     
+    //se para en el readuser, especificamente en el bufferedReader
     public static void readUser(File doc){
         try {
             FileReader fr = new FileReader(doc);
